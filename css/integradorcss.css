@@ -1,0 +1,41 @@
+.img {
+    width: 100%;
+    height: auto;
+    filter: brightness(50%);
+    max-width: 100%;
+    height: 500px;
+}
+.cajaimagen {
+    position:relative;
+}
+.texto {
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+    left: 50%;
+    color: white;
+}
+.titulos {
+    text-align: center;
+}
+.caja {
+    background-color: rgb(51, 49, 49);
+}
+.links {
+    color: azure;
+    text-decoration: none;
+}
+.pie {
+    text-align: center;
+    height: 5em;
+    background-color: rgb(28, 28, 87);
+}
+.verde {
+    color: green;
+}
+.borde {
+    border-style: groove;
+}
+.final {
+    text-align: end;
+}
