@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>integrador</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../css/integradorcss.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark pe-5">
+    <div class="container justify-content-center col-4">
+      <a class="navbar-brand" href="#">
+        <img src="img/codoacodo.png" alt="Avatar Logo" style="width:80px;">
+      </a>
+      <h5 class="text-light">Conf Bs As</h5>
+    </div>
+    <div class="container-fluid col-8 justify-content-end my-2">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">La conferencia</a>
+        </li>
+       <li class="nav-item">
+          <a class="nav-link" href="#">Los Oradores</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">El lugar y la fecha</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Conviertete en orador</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link verde" href="#">Comprar tickets</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container-fluid px-0 cajaimagen">
+    <img class="img"src="img/ba1.jpg" alt="ba1">
+    <div class="texto">
+      <h2 class="final">Conf Bs As</h2>
+      <p class="final">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis cupiditate, aperiam adipisci natus aut mollitia. Nisi tenetur eos officia, ducimus molestiae quasi voluptate, dicta ipsam itaque, quis vel eligendi magni orem ipsum dolor sit, amet consectetur adipisicing elit. Quis cupiditate, aperiam adipisci natus aut mollitia. Nisi tenetur eos officia, ducimus molestiae quasi voluptate, dicta ipsam itaque, quis vel eligendi magni</p>
+      <div class="container-fluid final">
+        <button type="button" class="btn btn-outline-light text-light">Quiero ser orador</button>
+        <button type="button" class="btn btn-success">Comprar tickets</button>
+      </div>
+    </div>
+  </div>
+  <h5 class="titulos">Conoce a los</h5>
+  <h1 class="titulos">ORADORES</h1>
+  <div class="container mb-3">
+        <div class="row">
+          <div class="card col-4">
+            <img class="card-img-top" src="img/steve.jpg" alt="Card image">
+            <div class="card-body">
+              <a href="#" class="btn btn-warning">JavaScript</a>
+              <a href="#" class="btn btn-primary">React</a>
+              <h4 class="card-title">Steve Jobs</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem voluptatum voluptatibus facilis ipsa? Blanditiis, quidem est! Possimus iusto, dolor recusandae vel voluptates eius quas ex praesentium at odio asperiores temporibus.</p>
+            </div>
+          </div>
+          <div class="card col-4">
+            <img class="card-img-top" src="img/bill.jpg" alt="Card image">
+            <div class="card-body">
+              <a href="#" class="btn btn-warning">JavaScript</a>
+              <a href="#" class="btn btn-primary">React</a>
+              <h4 class="card-title">Bill Gates</h4>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur quidem deserunt vitae porro illum autem quam fuga non similique quisquam error, voluptatem vel fugit. Culpa in placeat consequuntur illum atque?</p>
+            </div>
+          </div>
+          <div class="card col-4">
+            <img class="card-img-top" src="img/ada.jpeg" alt="Card image">
+            <div class="card-body">
+              <a href="#" class="btn btn-secondary">Negocios</a>
+              <a href="#" class="btn btn-danger">Startups</a>
+              <h4 class="card-title">Ada Lovelace</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus minima reiciendis laborum? Officia nobis magni repellat fugiat. Ipsum tempore reiciendis sit deserunt quisquam maiores nobis? Obcaecati voluptatibus ad deserunt expedita?</p>
+            </div>
+          </div>
+        </div>
+   </div>
+  <div class="container-fluid borde">
+    <div class="row">
+      <div class="col-6 mx-0 px-0">
+          <img src="img/honolulu.jpg" alt="hawai" width="100%">
+      </div>
+      <div class="col-6 caja mx-0 px-0">
+          <div class="container links">
+            <h1>Bs As - Octubre</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quod eveniet vitae, inventore dignissimos sunt voluptas impedit, doloribus facilis explicabo perspiciatis hic et maiores, laborum nesciunt laboriosam possimus sed tempora?</p>
+            <button type="button" class="btn btn-outline-light text-light">Conoce mas</button>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="container col-6 mt-3">
+    <p class="titulos my-0">Conviertete en un</p>
+    <h1 class="titulos my-0">Orador</h1>
+    <p class="titulos">Anotate como orador para dar una charla ignite. Cuentanos de que quieres hablar!</p>
+    <form>
+      <div class="row my-3">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Nombre" name="name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Apellido" name="subname">
+        </div>
+      </div>
+      <div class="my-3">
+        <input type="text" class="form-control" placeholder="Sobre que quieres hablar?" name="hablar">
+      </div>
+    </form>
+    <div class="d-grid">
+      <button type="button" class="btn btn-success btn-block">Enviar</button>
+    </div>
+  </div>
+  <footer class="pie mt-3">
+    <div class="container-fluid pie">
+      <a class="links mx-3" href="*">Preguntas frecuentes</a>
+      <a class="links mx-3" href="*">Contactanos</a>
+      <a class="links mx-3" href="*">Prensa</a>
+      <a class="links mx-3" href="*">Conferencias</a>
+      <a class="links mx-3" href="*">Terminos y condiciones</a>
+      <a class="links mx-3" href="*">Privacidad</a>
+      <a class="links mx-3" href="*">Estudiantes</a>
+    </div>
+  </footer>
+</body>
+</html>
